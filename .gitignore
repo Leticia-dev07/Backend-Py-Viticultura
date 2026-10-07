@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Tests / cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated ML models
+storage/models/*.joblib
+storage/models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
